@@ -9,7 +9,6 @@ export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
   title: "MobaXterm Keygen",
-  description: "MobaXterm Keygen Online",
   head: [
     ['meta', { name: 'color-scheme', content: 'light' }],
     ['meta', { name: 'theme-color', content: '#ffffff' }],
