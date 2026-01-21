@@ -1,0 +1,38 @@
+/* 强制覆盖暗色模式样式，解决闪屏问题 */
+:root {
+  color-scheme: light !important;
+}
+
+html.dark {
+  color-scheme: light !important;
+  
+  /* Background colors */
+  --c-bg: #ffffff !important;
+  --c-bg-light: #f3f4f5 !important;
+  --c-bg-lighter: #eeeeee !important;
+  --c-bg-navbar: #ffffff !important;
+  --c-bg-sidebar: #ffffff !important;
+  --c-bg-arrow: #cccccc !important;
+
+  /* Text colors */
+  --c-text: #2c3e50 !important;
+  --c-text-accent: #3eaf7c !important;
+  --c-text-light: #3a5169 !important;
+  --c-text-lighter: #4e6e8e !important;
+  --c-text-lightest: #6a8bad !important;
+  --c-text-quote: #999999 !important;
+
+  /* Border colors */
+  --c-border: #eaecef !important;
+  --c-border-dark: #dfe2e5 !important;
+
+  /* Custom colors */
+  --c-brand: #3eaf7c !important;
+  --c-brand-light: #4abf8a !important;
+}
+
+/* 强制 body 背景色 */
+body {
+  background-color: #ffffff !important;
+  color: #2c3e50 !important;
+}
